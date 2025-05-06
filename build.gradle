@@ -1,0 +1,9 @@
+android {
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 33
+        ndk {
+            abiFilters 'armeabi-v7a', 'x86'
+        }
+    }
+}
